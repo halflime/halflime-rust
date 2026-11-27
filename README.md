@@ -1,5 +1,7 @@
 # HalfLime Rust SDK
 
+[![Rust 1.89+](https://img.shields.io/badge/Rust-1.89%2B-B7410E?logo=rust&logoColor=white)](https://www.rust-lang.org/) [![Tokio 1](https://img.shields.io/badge/Tokio-1-4E4B8D)](https://tokio.rs/) [![Apache 2.0 license](https://img.shields.io/badge/license-Apache%202.0-2563EB)](https://github.com/halflime/halflime-rust/blob/main/LICENSE)
+
 Count events from a Rust app in [your own HalfLime instance](https://github.com/halflime/halflime). For example, send `export_finished` after a successful export to see how many PDFs your app produced. The client runs on Tokio and works in a Tauri backend without depending on Tauri.
 
 ## Send your first event
